@@ -1,0 +1,106 @@
+SIGNALS AND SYSTEMS LAB - EXPERIMENT 1: MATLAB BASICS
+
+1. Introduction
+---------------
+2 + 3 = 5
+Run the .m script from the MATLAB Editor with Run/F5 or by filename at >>.
+2. MATLAB as a calculator
+-------------------------
+8+3 = 11
+8-3 = 5
+8*3 = 24
+8/3 = 2.666667
+2^4 = 16
+2+3/4*5 = 5.75
+2+3/(4*5) = 2.15
+20/5*2 = 8.
+3. Numbers and formats
+----------------------
+integerValue = 1362
+realValue = 1.234
+complexValue = 3.21+4.3j
+infinityValue = inf
+nanValue = nan
+format short / long / bank changes display, not numeric precision.
+4. Variables and ans
+--------------------
+ans after 7+5 = 12
+namedValue = 10
+namedValuePlusFive = 15
+Legal: NetCost, Left2Pay, sample_value. Illegal examples are commented in the .m file.
+5. Suppressing output
+---------------------
+semicolon assignments [hidden first second third] = [42  2  3  5]
+Semicolons suppress automatic display; multiple statements can share a line.
+6. Built-in functions
+---------------------
+sinReal = 0.5
+cosReal = 0.866025
+tanReal = 0.57735
+asinReal = 0.523599
+acosReal = 1.047198
+atanReal = 0.785398
+sqrtReal = 3.
+expReal = 2.718282
+logReal = 2.
+log10Real = 3.
+absReal = 7
+z = 3.+4.j
+absComplex = 5.
+angleComplex = 0.927295
+realComplex = 3.
+imagComplex = 4.
+conjComplex = 3.-4.j
+sqrtComplex = 0.+1.j
+expComplex = 1.468694+2.287355j
+logComplex = 0.+3.141593j
+sinComplex = 1.298458+0.634964j
+cosComplex = 0.83373-0.988898j
+tanComplex = 0.271753+1.083923j
+asinComplex = 1.570796+1.316958j
+acosComplex = 0.-1.316958j
+atanComplex = 1.017222+0.402359j
+7. Vectors, colon notation, extraction, transpose
+-------------------------------------------------
+rowVector = [1 2 3 4]
+rowSum = [11 22 33 44]
+scalarTimesRow = [ 3  6  9 12]
+thirdElement = 3
+columnVector = [[1]
+ [2]
+ [3]
+ [4]]
+columnSum = [[11]
+ [22]
+ [33]
+ [44]]
+scalarTimesColumn = [[2]
+ [4]
+ [6]
+ [8]]
+secondElement = 2
+1:5 = [1 2 3 4 5]
+2:2:10 = [ 2  4  6  8 10]
+5:-1:1 = [5 4 3 2 1]
+subvector positions 2:4 = [2 3 4]
+alternate positions 1:2:4 = [1 3]
+complexRow = [1.+3.j 2.-2.j]
+complexConjugateTranspose = [[1.-3.j]
+ [2.+2.j]]
+complexPlainTranspose = [[1.+3.j]
+ [2.-2.j]]
+8. Keeping a record
+-------------------
+who / whos list saved workspace variables; load restores the MAT-file values.
+9. Exercises
+------------
+Exercise 1.1 y = -1.626454+7.533532j
+Exercise 1.1 magnitude = 7.707104
+Exercise 1.1 phase (radians) = 1.783428
+Exercise 1.2 photo polynomial at x=2 = 82
+Exercise 1.2 typed expression at x=2 = 48
+Exercise 1.3 v = [5 4]
+Exercise 1.3 v1 = [5 4]
+Exercise 1.3 sum = [10  8]
+Photo Exercise 1.2 includes x^3 and x^2; typed version omits those powers.
+Photo Exercise 1.3 spacing may instead mean vectors of unequal lengths; see .m comments.
