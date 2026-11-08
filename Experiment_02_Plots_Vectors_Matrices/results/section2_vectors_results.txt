@@ -1,0 +1,21 @@
+Signals and Systems Lab — Experiment #2
+Section 2: Vector calculations (MATLAB notation)
+
+u*v scalar product: 167
+u*w': 45
+u*u': 365
+v'*z: -96
+u.*w: [ 20 -11  36]
+u.*v' (dimension error in manual-era MATLAB): MATLAB error: Arrays have incompatible sizes for this operation (1x3 and 3x1).
+v.*z: [ 140 -126 -110]
+u'.*v (dimension error): 'MATLAB error: Arrays have incompatible sizes for this operation (1x3 and 3x1).'
+a./b: [0.166667 0.285714 0.375    0.444444 0.5     ]
+a./a: [1. 1. 1. 1. 1.]
+a./c (Inf at zero): [-0.5 -2.   inf  4.   2.5]
+a.*b-24: [-18 -10   0  12  26]
+(a.*b-24)./c: [ 9. 10. nan 12. 13.]
+u.^2: [100 121 144]
+u.*u: [100 121 144]
+u.^4: [10000 14641 20736]
+v.^2: [400 441 484]
+u.*w.^(-2): [  2.5      -11.         1.333333]
