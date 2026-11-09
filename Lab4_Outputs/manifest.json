@@ -1,0 +1,240 @@
+[
+  {
+    "task": "p32 Unit Step Function",
+    "type": "graph",
+    "file": "graphs/p32_unit_step.png",
+    "caption": "p32 Unit Step Function: Unit step u(t).",
+    "observation": "The step is zero before 0 s and one from 0 s onward. The sampled range is 0 to 1. The transition occurs at t=0 s."
+  },
+  {
+    "task": "p32 Unit Step Function",
+    "type": "table",
+    "file": "tables/p32_unit_step.csv",
+    "caption": "Sampled values for p32 Unit Step Function.",
+    "observation": "The step is zero before 0 s and one from 0 s onward. The sampled range is 0 to 1. The transition occurs at t=0 s."
+  },
+  {
+    "task": "p33 2.1 Sinusoidal Signal",
+    "type": "graph",
+    "file": "graphs/p33_sinusoidal_examples.png",
+    "caption": "p33 2.1 Sinusoidal Signal: 1 Hz phase examples.",
+    "observation": "All four curves have unit amplitude and one cycle over one second. The cosine curves shifted by plus or minus pi/2 align with the sine curve or its negative. Their common period is 1 s."
+  },
+  {
+    "task": "p33 2.1 Sinusoidal Signal",
+    "type": "table",
+    "file": "tables/p33_sinusoidal_examples.csv",
+    "caption": "Sampled values for p33 2.1 Sinusoidal Signal.",
+    "observation": "All four curves have unit amplitude and one cycle over one second. The cosine curves shifted by plus or minus pi/2 align with the sine curve or its negative. Their common period is 1 s."
+  },
+  {
+    "task": "p33 2.2(i) Piecewise h(t)",
+    "type": "graph",
+    "file": "graphs/p33_piecewise_h.png",
+    "caption": "p33 2.2(i) Piecewise h(t): Piecewise signal h(t).",
+    "observation": "The signal equals 1 on -1<=t<=0 and -1 on 0<t<=2. It changes level at t=0 and is zero outside the defined intervals. The plotted interval follows the manual definition."
+  },
+  {
+    "task": "p33 2.2(i) Piecewise h(t)",
+    "type": "table",
+    "file": "tables/p33_piecewise_h.csv",
+    "caption": "Sampled values for p33 2.2(i) Piecewise h(t).",
+    "observation": "The signal equals 1 on -1<=t<=0 and -1 on 0<t<=2. It changes level at t=0 and is zero outside the defined intervals. The plotted interval follows the manual definition."
+  },
+  {
+    "task": "p33 2.2(ii) Piecewise Exponential",
+    "type": "graph",
+    "file": "graphs/p33_piecewise_exponential.png",
+    "caption": "p33 2.2(ii) Piecewise Exponential: Piecewise exponential x(t).",
+    "observation": "The branches meet at x(0)=1. The signal is symmetric about t=0 and decreases toward both endpoints. Its endpoint values are approximately 0.3679."
+  },
+  {
+    "task": "p33 2.2(ii) Piecewise Exponential",
+    "type": "table",
+    "file": "tables/p33_piecewise_exponential.csv",
+    "caption": "Sampled values for p33 2.2(ii) Piecewise Exponential.",
+    "observation": "The branches meet at x(0)=1. The signal is symmetric about t=0 and decreases toward both endpoints. Its endpoint values are approximately 0.3679."
+  },
+  {
+    "task": "p33 2.2(iii) Piecewise f(x)",
+    "type": "graph",
+    "file": "graphs/p33_piecewise_f.png",
+    "caption": "p33 2.2(iii) Piecewise f(x): Piecewise signal f(x).",
+    "observation": "For x<0 the sine branch ranges from -1.0000 to 1.0000 on the plotted interval. The quadratic branch rises from 0 to 1 on [0,1]. For x>1 the reciprocal branch decreases toward zero."
+  },
+  {
+    "task": "p33 2.2(iii) Piecewise f(x)",
+    "type": "table",
+    "file": "tables/p33_piecewise_f.csv",
+    "caption": "Sampled values for p33 2.2(iii) Piecewise f(x).",
+    "observation": "For x<0 the sine branch ranges from -1.0000 to 1.0000 on the plotted interval. The quadratic branch rises from 0 to 1 on [0,1]. For x>1 the reciprocal branch decreases toward zero."
+  },
+  {
+    "task": "p34 2.2(iv) Rectangular Pulse",
+    "type": "graph",
+    "file": "graphs/p34_rectangular_pulse.png",
+    "caption": "p34 2.2(iv) Rectangular Pulse: Rectangular pulse from the step function.",
+    "observation": "The visible sketch shows a pulse beginning at 2 s and ending at 4 s. This plot transcribes its apparent unit height; the manual does not show a readable analytic expression. See notes.md for the source limitation."
+  },
+  {
+    "task": "p34 2.2(iv) Rectangular Pulse",
+    "type": "table",
+    "file": "tables/p34_rectangular_pulse.csv",
+    "caption": "Sampled values for p34 2.2(iv) Rectangular Pulse.",
+    "observation": "The visible sketch shows a pulse beginning at 2 s and ending at 4 s. This plot transcribes its apparent unit height; the manual does not show a readable analytic expression. See notes.md for the source limitation."
+  },
+  {
+    "task": "p34 2.3 Exponentially Varying Sinusoid",
+    "type": "graph",
+    "file": "graphs/p34_damped_sinusoid.png",
+    "caption": "p34 2.3 Exponentially Varying Sinusoid: Damped sinusoid and envelopes.",
+    "observation": "The oscillation is bounded by envelopes that decay from +/-4 at t=0 to +/-0.001342 at t=4 s. Its angular frequency remains 6 rad/s while the amplitude decays. The phase offset of 60 degrees is converted to pi/3 radians."
+  },
+  {
+    "task": "p34 2.3 Exponentially Varying Sinusoid",
+    "type": "table",
+    "file": "tables/p34_damped_sinusoid.csv",
+    "caption": "Sampled values for p34 2.3 Exponentially Varying Sinusoid.",
+    "observation": "The oscillation is bounded by envelopes that decay from +/-4 at t=0 to +/-0.001342 at t=4 s. Its angular frequency remains 6 rad/s while the amplitude decays. The phase offset of 60 degrees is converted to pi/3 radians."
+  },
+  {
+    "task": "p34 2.4 Multiplication of Two Signals",
+    "type": "graph",
+    "file": "graphs/p34_signal_product.png",
+    "caption": "p34 2.4 Multiplication of Two Signals: Y(t) and V(t)=Y(t)W(t).",
+    "observation": "At t=0 both branches of Y(t) equal 2. The negative-time exponential approaches 2, and the positive-time branch decreases linearly to -8 at 10 s. Multiplication by cos(30t) produces rapid oscillations bounded by |Y(t)|."
+  },
+  {
+    "task": "p34 2.4 Multiplication of Two Signals",
+    "type": "table",
+    "file": "tables/p34_signal_product.csv",
+    "caption": "Sampled values for p34 2.4 Multiplication of Two Signals.",
+    "observation": "At t=0 both branches of Y(t) equal 2. The negative-time exponential approaches 2, and the positive-time branch decreases linearly to -8 at 10 s. Multiplication by cos(30t) produces rapid oscillations bounded by |Y(t)|."
+  },
+  {
+    "task": "p35 3.1.1 Time Shift",
+    "type": "graph",
+    "file": "graphs/p35_shifted_unit_step.png",
+    "caption": "p35 3.1.1 Time Shift: u(t-2).",
+    "observation": "The shifted unit step is zero until t=2 s and one afterward. Its transition is delayed by 2 s relative to u(t). The amplitude and shape are unchanged."
+  },
+  {
+    "task": "p35 3.1.1 Time Shift",
+    "type": "table",
+    "file": "tables/p35_shifted_unit_step.csv",
+    "caption": "Sampled values for p35 3.1.1 Time Shift.",
+    "observation": "The shifted unit step is zero until t=2 s and one afterward. Its transition is delayed by 2 s relative to u(t). The amplitude and shape are unchanged."
+  },
+  {
+    "task": "p35 3.1.2 Time Shift",
+    "type": "graph",
+    "file": "graphs/p35_shifted_cosine.png",
+    "caption": "p35 3.1.2 Time Shift: cosine shifted right by 0.5 s.",
+    "observation": "The original cosine is supported on [-0.5,0.5] and peaks at t=0. The delayed curve has the same shape and peaks at t=0.5. The shift moves its features 0.5 s to the right without changing amplitude."
+  },
+  {
+    "task": "p35 3.1.2 Time Shift",
+    "type": "table",
+    "file": "tables/p35_shifted_cosine.csv",
+    "caption": "Sampled values for p35 3.1.2 Time Shift.",
+    "observation": "The original cosine is supported on [-0.5,0.5] and peaks at t=0. The delayed curve has the same shape and peaks at t=0.5. The shift moves its features 0.5 s to the right without changing amplitude."
+  },
+  {
+    "task": "p35 3.1.3 Time Shift",
+    "type": "graph",
+    "file": "graphs/p35_shifted_triangle.png",
+    "caption": "p35 3.1.3 Time Shift: triangular signal shifted right by 2 s.",
+    "observation": "The diagram's triangle rises from (0,0) to (2,2), then falls to (3,0). The shifted curve retains its peak height and moves the peak to t=4. Its support moves from [0,3] to [2,5]."
+  },
+  {
+    "task": "p35 3.1.3 Time Shift",
+    "type": "table",
+    "file": "tables/p35_shifted_triangle.csv",
+    "caption": "Sampled values for p35 3.1.3 Time Shift.",
+    "observation": "The diagram's triangle rises from (0,0) to (2,2), then falls to (3,0). The shifted curve retains its peak height and moves the peak to t=4. Its support moves from [0,3] to [2,5]."
+  },
+  {
+    "task": "p36 3.2 Time Scaling",
+    "type": "graph",
+    "file": "graphs/p36_time_scaling.png",
+    "caption": "p36 3.2 Time Scaling: x(t), x(2t), and x(t/2).",
+    "observation": "The original cosine is supported on [-0.5,0.5]. The x(2t) version is compressed to [-0.25,0.25], while x(t/2) expands to [-1,1]. All preserve the peak amplitude of 1 at t=0."
+  },
+  {
+    "task": "p36 3.2 Time Scaling",
+    "type": "table",
+    "file": "tables/p36_time_scaling.csv",
+    "caption": "Sampled values for p36 3.2 Time Scaling.",
+    "observation": "The original cosine is supported on [-0.5,0.5]. The x(2t) version is compressed to [-0.25,0.25], while x(t/2) expands to [-1,1]. All preserve the peak amplitude of 1 at t=0."
+  },
+  {
+    "task": "p37 3.3 Time Inversion",
+    "type": "graph",
+    "file": "graphs/p37_time_inversion.png",
+    "caption": "p37 3.3 Time Inversion: f(t) and f(-t).",
+    "observation": "The original exponential rises from 0.0821 at -5 s to 0.6065 at -1 s. Time inversion reflects it onto [1,5], where it is exp(-t/2). The reflected curve has the same values in reverse time order."
+  },
+  {
+    "task": "p37 3.3 Time Inversion",
+    "type": "table",
+    "file": "tables/p37_time_inversion.csv",
+    "caption": "Sampled values for p37 3.3 Time Inversion.",
+    "observation": "The original exponential rises from 0.0821 at -5 s to 0.6065 at -1 s. Time inversion reflects it onto [1,5], where it is exp(-t/2). The reflected curve has the same values in reverse time order."
+  },
+  {
+    "task": "p38 Exercise (a) Piecewise Signal",
+    "type": "graph",
+    "file": "graphs/p38_ex_a_piecewise.png",
+    "caption": "p38 Exercise (a) Piecewise Signal: defined piecewise x(t).",
+    "observation": "The signal is zero for t<-4, equals t+2 on [-4,3], and equals t-2 for t>3. At -4 it takes the middle-branch value -2, and at 3 it takes value 5. The right branch starts just after 3 near 1, so there is a jump there."
+  },
+  {
+    "task": "p38 Exercise (a) Piecewise Signal",
+    "type": "table",
+    "file": "tables/p38_ex_a_piecewise.csv",
+    "caption": "Sampled values for p38 Exercise (a) Piecewise Signal.",
+    "observation": "The signal is zero for t<-4, equals t+2 on [-4,3], and equals t-2 for t>3. At -4 it takes the middle-branch value -2, and at 3 it takes value 5. The right branch starts just after 3 near 1, so there is a jump there."
+  },
+  {
+    "task": "p38 Exercise (b)(i) x(t-1)",
+    "type": "graph",
+    "file": "graphs/p38_ex_b_i_shift.png",
+    "caption": "p38 Exercise (b)(i) x(t-1): time-shifted x(t-1).",
+    "observation": "The transformation x(t-1) delays the signal by 1 time unit. Its breakpoints move from -4 and 3 to -3 and 4. The branch values are those of x evaluated one unit earlier."
+  },
+  {
+    "task": "p38 Exercise (b)(i) x(t-1)",
+    "type": "table",
+    "file": "tables/p38_ex_b_i_shift.csv",
+    "caption": "Sampled values for p38 Exercise (b)(i) x(t-1).",
+    "observation": "The transformation x(t-1) delays the signal by 1 time unit. Its breakpoints move from -4 and 3 to -3 and 4. The branch values are those of x evaluated one unit earlier."
+  },
+  {
+    "task": "p38 Exercise (b)(ii) x(t/3)",
+    "type": "graph",
+    "file": "graphs/p38_ex_b_ii_scale.png",
+    "caption": "p38 Exercise (b)(ii) x(t/3): time-expanded x(t/3).",
+    "observation": "The transformation x(t/3) expands the time axis by a factor of 3. Its breakpoints move to -12 and 9. The branch values are evaluated at one-third of the plotted time."
+  },
+  {
+    "task": "p38 Exercise (b)(ii) x(t/3)",
+    "type": "table",
+    "file": "tables/p38_ex_b_ii_scale.csv",
+    "caption": "Sampled values for p38 Exercise (b)(ii) x(t/3).",
+    "observation": "The transformation x(t/3) expands the time axis by a factor of 3. Its breakpoints move to -12 and 9. The branch values are evaluated at one-third of the plotted time."
+  },
+  {
+    "task": "p38 Exercise (b)(iii) x(-t)",
+    "type": "graph",
+    "file": "graphs/p38_ex_b_iii_inversion.png",
+    "caption": "p38 Exercise (b)(iii) x(-t): time-inverted x(-t).",
+    "observation": "Time inversion reflects the piecewise signal across t=0. The original breakpoints -4 and 3 appear at 4 and -3. The values are obtained by evaluating x at the negative of the plotted time."
+  },
+  {
+    "task": "p38 Exercise (b)(iii) x(-t)",
+    "type": "table",
+    "file": "tables/p38_ex_b_iii_inversion.csv",
+    "caption": "Sampled values for p38 Exercise (b)(iii) x(-t).",
+    "observation": "Time inversion reflects the piecewise signal across t=0. The original breakpoints -4 and 3 appear at 4 and -3. The values are obtained by evaluating x at the negative of the plotted time."
+  }
+]
